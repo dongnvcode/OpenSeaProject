@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS Thẻ Header ----------------------------*/
+.topnav {
+    width: 100%;
+    height: 72px;
+    overflow: hidden;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display: flex;
+    position: fixed;
+    top: 0px;
+}
+
+.topnav a {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(53, 56, 64);
+    ;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 9%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .search-container {
+    float: center;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    width: 400px;
+    height: 40px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+}
+
+.img_lgopensea {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+/* CSS Body - Container-------------------------------*/
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg--color: #006778;
+    --primary--color: #fff;
+    --secondary--color: #a4ebf3;
+    --gray--color: #aaaaaa;
+}
+
+.wapper {
+    margin-top: 120px;
+    width: 400px;
+    background-color: var(--primary--color);
+    padding: 10px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.wapper input {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 100%;
+    border: 1px solid #0093ab;
+    outline: none;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); */
+}
+
+.wapper .btn {
+    width: 100px;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(32, 129, 226);
+    transition: all 0.2s linear;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.wapper input:focus {
+    border: 1px solid var(--bg--color);
+}
+
+.wapper input::placeholder {
+    color: black;
+}
+
+.wapper .login-link {
+    display: block;
+    transform: translateX(120px);
+    margin-bottom: 20px;
+    color: var(--bg--color);
+    text-decoration: none;
+    font-weight: bold
+    
+}
+
+.wapper-heading {
+    color: rgb(32, 129, 226);
+}

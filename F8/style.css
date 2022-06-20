@@ -1,0 +1,83 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    /* float: left;  */
+    /* float: left; Đưa các element lên hàng ngang */
+}
+
+.box1 {
+    background-color: aqua;
+    /* margin: 15px;    */
+}
+
+.box2 {
+    background-color: blueviolet;
+    /* margin: 15px; */
+}
+
+.box3 {
+    background-color: orange;
+    /* padding: 10px;
+    border: 10px solid black; */
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    padding: 20px;
+    border: 10px dashed red;
+    box-sizing: border-box;
+    /* background-clip: padding-box; */
+}
+
+.img {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://afamilycdn.com/2018/10/3/photo1538392226601-15383922266012085392896-15385363281151390636916.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain(lấy ngang)/cover(lấy dọc); */
+    background-size: 70%;
+
+    /* shorthand */
+    /* background: url(https://afamilycdn.com/2018/10/3/photo1538392226601-15383922266012085392896-15385363281151390636916.jpg) no-repeat center; */
+}
+
+.but1 {
+    /* background-color: rgb(21, 178, 229);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600; */
+    width: 120px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px 24px;
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="topnav">
+            <img class="img_lgopensea" src="https://static.opensea.io/Logos/opensea-pride.svg" alt="Logo OpenSea">
+            <a href="/Trangchu/Trangchu.html">OpenSea</a>
+
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Search items, collection, and accounts" name="search">
+                </form>
+            </div>
+
+            <a href="#explore">Explore</a>
+            <a href="#stats">Market</a>
+            <a href="/Create/create.html">Create</a>
+            <a href="/Login-Signup/signup.html">Sign Up</a>
+            <a href="/Login-Signup/login.html">Login</a>
+        </div>
+    </div>
+    
+    <!-- Body -->
+    <div class="container">
+      <div class="wapper">
+        <div class="wapper-heading">
+          <h1>Sign Up</h1>
+        </div>
+        <form onsubmit="signup()">
+          <div class="input__field">
+            <input id="username" type="text" placeholder="User Name" />
+          </div>
+  
+          <div class="input__field">
+            <input id="email" type="text" placeholder="Email" />
+          </div>
+          <div class="input__field">
+            <input id="password" type="password" placeholder="Password" />
+          </div>
+          <div class="input__field">
+            <input id="password" type="password" placeholder="Confirm Password" />
+          </div>
+          <a href="login.html" class="login-link">Login</a>
+          <button id="btnSignup" class="btn">Sign Up</button>
+        </form>
+    </div>
+    </div>
+    
+
+    <!-- Footer -->
+
+    <script src="./main.js"></script>
+
+</body>
+</html>

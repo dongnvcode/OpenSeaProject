@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS Thẻ Header ----------------------------*/
+.topnav {
+    width: 100%;
+    height: 72px;
+    overflow: hidden;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display: flex;
+    position: fixed;
+    top: 0px;
+}
+
+.topnav a {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(53, 56, 64);
+    ;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 9%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .search-container {
+    float: center;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    width: 400px;
+    height: 40px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+}
+
+.img_lgopensea {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+/* CSS Body - Container-------------------------------*/
