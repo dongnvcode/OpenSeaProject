@@ -16,22 +16,22 @@ function signup(e) {
 
   function login(e) {
     event.preventDefault();
-    var username = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var user = localStorage.getItem(username);
-    var data = JSON.parse(user);
-    if (!user) {
-      alert("Enter Your Username & Password");
-    } else if (
-      username == data.username &&
-      email == data.email &&
-      password == data.password
-    ) {
+    // var username = document.getElementById("username").value;
+    // var email = document.getElementById("email").value;
+    // var password = document.getElementById("password").value;
+    // var user = localStorage.getItem(username);
+    // var data = JSON.parse(user);
+    // if (!user) {
+    //   alert("Enter Your Username & Password");
+    // } else if (
+    //   username == data.username &&
+    //   email == data.email &&
+    //   password == data.password
+    // ) {
       alert("Login Success");
-      window.location.href = "todolist.html";
-    } else {
-      alert("Login Failed");
-    }
+    //   window.location.href = "todolist.html";
+    // } else {
+    //   alert("Login Failed");
+    // }
     window.location.href = "../Trangchu/Trangchu.html"
   }
