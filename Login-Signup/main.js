@@ -11,6 +11,7 @@ function signup(e) {
     var json = JSON.stringify(user);
     localStorage.setItem(username, json);
     alert("Sign Up Success");
+    window.location.href = "../Trangchu/Trangchu.html"
   }
 
   function login(e) {
@@ -32,4 +33,5 @@ function signup(e) {
     } else {
       alert("Login Failed");
     }
+    window.location.href = "../Trangchu/Trangchu.html"
   }
